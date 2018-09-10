@@ -38,8 +38,6 @@
     "coverage": "cross-env NODE_CONFIG_DIR=./test/config/ node node_modules/istanbul/lib/cli cover node_modules/mocha/bin/_mocha -- --opts mocha.opts",
     "test": "npm run compile && npm run lint && npm run coverage",
     "start": "npm run compile && node lib"
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
   },
   "standard": {
     "sourceType": "module",
@@ -66,8 +64,7 @@
     "uberproto": "^1.2.0",
     "weacast-core": "^0.7.1",
     "weacast-grib2json": "^0.2.2",
-    "winston": "^2.3.1",
-    "snyk": "^1.83.0"
+    "winston": "^2.3.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -86,6 +83,5 @@
     "mocha": "^3.2.0",
     "shx": "^0.2.2",
     "standard": "^10.0.2"
-  },
-  "snyk": true
+  }
 }
