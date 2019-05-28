@@ -1,6 +1,6 @@
 import path from 'path'
 import fs from 'fs-extra'
-import errors from 'feathers-errors'
+import errors from '@feathersjs/errors'
 import grib2json from 'weacast-grib2json'
 import logger from 'winston'
 import makeDebug from 'debug'
