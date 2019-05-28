@@ -2031,7 +2031,7 @@ feathers-client@^2.2.0:
     feathers-rest "1.8.0"
     feathers-socketio "2.0.0"
 
-feathers-commons@^0.8.0, feathers-commons@^0.8.1, feathers-commons@^0.8.4, feathers-commons@^0.8.5, feathers-commons@^0.8.6, feathers-commons@^0.8.7:
+feathers-commons@^0.8.0, feathers-commons@^0.8.4, feathers-commons@^0.8.5, feathers-commons@^0.8.6, feathers-commons@^0.8.7:
   version "0.8.7"
   resolved "https://registry.yarnpkg.com/feathers-commons/-/feathers-commons-0.8.7.tgz#11c6f25b537745a983e8d61552d7db8932d53782"
 
@@ -2080,33 +2080,12 @@ feathers-hooks@^2.0.1:
     feathers-commons "^0.8.6"
     uberproto "^1.2.0"
 
-feathers-levelup@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/feathers-levelup/-/feathers-levelup-1.1.1.tgz#a948f8bc4c49c6203aa669e173955c41916a1556"
-  dependencies:
-    feathers-errors "^2.0.1"
-    feathers-query-filters "^2.0.0"
-    levelup "^1.3.1"
-    lodash "^4.6.1"
-    uberproto "^1.2.0"
-    uuid "^2.0.1"
-
 feathers-mongodb@^2.8.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/feathers-mongodb/-/feathers-mongodb-2.9.0.tgz#c5672c9f74db97c17792ea0c7bb22c3cfd82ada0"
   dependencies:
     babel-polyfill "^6.7.4"
     feathers-commons "^0.8.4"
-    feathers-errors "^2.0.1"
-    feathers-query-filters "^2.0.0"
-    lodash.omit "^4.3.0"
-    uberproto "^1.2.0"
-
-feathers-nedb@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/feathers-nedb/-/feathers-nedb-2.6.2.tgz#fef27b8d822fe64d635d1fab647f640c11754059"
-  dependencies:
-    feathers-commons "^0.8.1"
     feathers-errors "^2.0.1"
     feathers-query-filters "^2.0.0"
     lodash.omit "^4.3.0"
@@ -2189,7 +2168,7 @@ feathers@2.2.0:
     rubberduck "^1.1.1"
     uberproto "^1.2.0"
 
-feathers@^2.1.2, feathers@^2.1.4:
+feathers@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/feathers/-/feathers-2.1.4.tgz#dcdae0f32ee23534f7d239ec53de5d103604c61d"
   dependencies:
@@ -3132,7 +3111,7 @@ level-iterator-stream@~1.3.0:
     readable-stream "^1.0.33"
     xtend "^4.0.0"
 
-levelup@^1.3.1, levelup@^1.3.2:
+levelup@^1.3.2:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/levelup/-/levelup-1.3.8.tgz#fb442c488efbea1043f7eb9929a792a74fbd1da6"
   dependencies:
@@ -3246,7 +3225,7 @@ lodash.reduce@4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.reduce/-/lodash.reduce-4.6.0.tgz#f1ab6b839299ad48f784abbf476596f03b914d3b"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -3663,9 +3642,9 @@ passport-oauth2@1.x.x, passport-oauth2@^1.4.0:
     uid2 "0.0.x"
     utils-merge "1.x.x"
 
-"passport-openidconnect@git+https://github.com/kalisio/passport-openidconnect.git":
+"passport-openidconnect@https://github.com/kalisio/passport-openidconnect":
   version "0.0.2"
-  resolved "git+https://github.com/kalisio/passport-openidconnect.git#82d9f0653334a0538b2c3dc2a8119eefc2eca237"
+  resolved "https://github.com/kalisio/passport-openidconnect#82d9f0653334a0538b2c3dc2a8119eefc2eca237"
   dependencies:
     oauth "0.9.x"
     passport-strategy "1.x.x"
@@ -4674,10 +4653,6 @@ utils-merge@1.x.x:
 uuid@3.1.0, uuid@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
-
-uuid@^2.0.1:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
 uuid@^3.1.0:
   version "3.2.1"
