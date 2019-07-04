@@ -3554,9 +3554,9 @@ passport-oauth2@1.x.x, passport-oauth2@^1.4.0:
     uid2 "0.0.x"
     utils-merge "1.x.x"
 
-"passport-openidconnect@git+https://github.com/kalisio/passport-openidconnect.git":
+"passport-openidconnect@https://github.com/kalisio/passport-openidconnect":
   version "0.0.2"
-  resolved "git+https://github.com/kalisio/passport-openidconnect.git#82d9f0653334a0538b2c3dc2a8119eefc2eca237"
+  resolved "https://github.com/kalisio/passport-openidconnect#82d9f0653334a0538b2c3dc2a8119eefc2eca237"
   dependencies:
     oauth "0.9.x"
     passport-strategy "1.x.x"
@@ -4610,10 +4610,10 @@ weacast-core@^1.1.0:
     winston "^2.3.1"
     winston-daily-rotate-file "^1.7.2"
 
-weacast-grib2json@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/weacast-grib2json/-/weacast-grib2json-1.0.0.tgz#d1a95ae954561ca4de1a1e1146a694b2e631f763"
-  integrity sha512-f55Jxx5XYnK+QOSppznfOxdWnyOoYqwO5ZNtzHl5qbNEbHN7CL9TIiTUu5I8dlpDAD4E9wa4LgGvm5NDg1UdIg==
+weacast-grib2json@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/weacast-grib2json/-/weacast-grib2json-1.0.2.tgz#0e03d3e4d09ab326810bfc98d6462960a194ab60"
+  integrity sha512-OMkDtnReSazwJ7lYQNslHQ5uBbzdVYE8G2Ug+hxYDoVP9OZnPT6i1bAPx3KcEXyzLfJOBvWWfuejdcfc5d2cjA==
   dependencies:
     commander "^2.9.0"
     fs-extra "^4.0.2"
