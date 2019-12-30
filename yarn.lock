@@ -3554,9 +3554,9 @@ passport-oauth2@1.x.x, passport-oauth2@^1.4.0:
     uid2 "0.0.x"
     utils-merge "1.x.x"
 
-"passport-openidconnect@https://github.com/kalisio/passport-openidconnect":
+"passport-openidconnect@git+https://github.com/kalisio/passport-openidconnect.git":
   version "0.0.2"
-  resolved "https://github.com/kalisio/passport-openidconnect#82d9f0653334a0538b2c3dc2a8119eefc2eca237"
+  resolved "git+https://github.com/kalisio/passport-openidconnect.git#82d9f0653334a0538b2c3dc2a8119eefc2eca237"
   dependencies:
     oauth "0.9.x"
     passport-strategy "1.x.x"
@@ -4573,10 +4573,10 @@ verror@1.3.6:
   dependencies:
     extsprintf "1.0.2"
 
-weacast-core@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/weacast-core/-/weacast-core-1.1.0.tgz#954848086a040fa6023d966a2829698fd147b571"
-  integrity sha512-NyBPzOc5NtQe9zZCL/Pm94pINasIDyBn8lduWJuO9C+4m/hnyxSfwaLxvPf0pa63w1Ge/rawMGGi6HCV+FBozw==
+weacast-core@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/weacast-core/-/weacast-core-1.2.0.tgz#3547ab238d474256e8adaf7b1feb326280476fcb"
+  integrity sha512-GlplYt9KHj3lbiF9wcWs57lNnqGhlvQYim2T/MqQXwtm2nc0Ujf7xN3+dQidAYc+h03NJKZGJIKYSoRoteHwXQ==
   dependencies:
     "@feathersjs/authentication" "^2.1.16"
     "@feathersjs/authentication-jwt" "^2.0.10"
